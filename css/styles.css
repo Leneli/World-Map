@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+/* line 11, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+body {
+  font-family: "Open Sans";
+  font-size: 1em;
+  color: #303030; }
+
+/* line 18, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+.page {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column; }
+
+/* line 23, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+main {
+  flex: 1 0 auto; }
+
+/* line 24, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+footer {
+  flex: 0 0 auto; }
+
+/* line 27, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+main {
+  position: relative;
+  background-color: #91b2b8;
+  text-align: center;
+  overflow: hidden; }
+
+/* line 34, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+.zoom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+  font-size: .95em; }
+  /* line 41, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  .zoom input {
+    width: 30px;
+    height: 30px; }
+  /* line 45, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  .zoom > div > div {
+    display: flex; }
+  @media screen and (max-width: 413px) {
+    /* line 50, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+    .zoom div {
+      display: flex;
+      flex-direction: column; }
+    /* line 54, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+    .zoom input {
+      width: 50px;
+      height: 50px;
+      font-size: 2em; } }
+
+/* line 63, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  background-color: #d7661e;
+  font-size: .9em; }
+
+/* line 72, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+header {
+  height: 70px;
+  color: #fff; }
+  /* line 76, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  header .menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1); }
+
+/* line 81, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+footer {
+  height: 150px;
+  color: rgba(255, 255, 255, 0.6); }
+  /* line 84, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  footer .menu {
+    flex-direction: column;
+    padding-top: 10px; }
+    /* line 87, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+    footer .menu > a {
+      padding-top: 10px; }
+      /* line 89, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+      footer .menu > a:hover {
+        text-decoration: underline; }
+
+/* line 94, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+.menu {
+  display: flex;
+  align-items: stretch;
+  height: 100%; }
+  /* line 98, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  .menu > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px; }
+
+/* line 107, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+.logo {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans Condensed";
+  font-size: 2.3em; }
+
+/* line 116, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+g[class^="worldmap"] {
+  stroke: #226688;
+  stroke-width: 0.5px;
+  cursor: pointer; }
+  /* line 120, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+  g[class^="worldmap"]:hover {
+    stroke-width: 1.5px; }
+
+/* line 130, C:/Users/Liafell/Downloads/MAP/css/styles.scss */
+.tooltip {
+  position: absolute;
+  background-color: #fff;
+  padding: 30px;
+  z-index: 1000; }
+
+/*# sourceMappingURL=styles.css.map */

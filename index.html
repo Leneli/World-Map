@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>heatMAP</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<div class="page">
+	    
+	    <header>
+	        <a href="#main-map" class="logo">heatMAP</a>
+	        
+	        <nav class="menu">
+                <a href="#main-map">Карта</a>
+	            <a href="#">Контакты</a>
+	        </nav>
+	    </header>
+	    
+	    <main id="main-map">
+	        <div class="zoom" id="zoom">
+	            <input id="pls" type="button" value=" + ">
+	            <input id="min" type="button" value=" - ">
+	            
+	            <div>
+                    <input id="top" type="button" value="&uarr;">
+                    <div>
+                        <input id="left" type="button" value="&larr;">
+                        <input id="right" type="button" value="&rarr;">
+                    </div>
+                    <input id="bottom" type="button" value="&darr;">
+                </div>
+	        </div>
+	        
+	    <!-- SVG -->
+	    </main>
+	    
+	    <footer>
+           <div class="copy">&copy; 2017</div>
+           
+           <nav class="menu">
+                <a href="#main-map">Карта</a>
+	            <a href="#">О проекте</a>
+	            <a href="#">Обратная связь</a>
+	            <a href="#">Контакты</a>
+	        </nav>
+        </footer>
+	    
+	</div> <!-- /class="page" -->
+
+<script src="js/world-object.js"></script>
+<script src="js/map.js"></script>
+</body>
+
+</html>
